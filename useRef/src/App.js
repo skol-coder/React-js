@@ -11,7 +11,7 @@ export default function App(){
   return(
     <>
       <input value={text} onChange={e =>settext(e.target.value)}/>
-      <div>text = {text} text = {pretext.current}</div>
+      <div>text = {text} pretext = {pretext.current}</div>
     </>
   )
 }
